@@ -1,11 +1,13 @@
 body{
     background-color:aqua;
-    color:blueviolet
-    
+    color:rgb(88, 5, 5);
+    font-family: arial,sans-serif;
 }
 header{
     background-color: brown;
     color:darkblue;
+    text-align: center;
+    padding: 30px;
 
 }
 main{
