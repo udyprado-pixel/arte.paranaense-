@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 header{
-    background-color: brown;
+    background-color: rgb(201, 191, 49);
     color:darkblue;
     text-align: center;
     padding: 30px;
@@ -13,3 +13,5 @@ header{
 }
 h1 {
     font-size: 36px;
+
+}
