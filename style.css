@@ -1,17 +1,123 @@
-body{
-    background-color:aqua;
-    color:rgb(88, 5, 5);
-    font-family: arial,sans-serif;
+body {
+    background-color: #eef2e3;
+    color: #263b24;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
-header{
-    background-color: rgb(201, 191, 49);
-    color:darkblue;
+
+
+header {
+    background-color: #285c2d;
+    color: white;
     text-align: center;
     padding: 30px;
-
 }
-h1 {
-    font-size: 36px;
 
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+
+h2 {
+    color: #4f7d32;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    color: #356b2f;
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #3f5139;
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #4f7d32;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+nav a:hover {
+    background-color: #315a27;
+}
+
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+
+section {
+    background-color: #f8f9ed;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 12px;
+    border: 4px solid #b7c99a;
+    box-shadow: 0 2px 8px rgba(40, 70, 30, 0.25);
+}
+
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    border: 4px solid #4f7d32;
+}
+
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #687b4d;
+    margin-top: 8px;
+}
+
+
+.card {
+    background-color: #e3ebd2;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #8ca66b;
+    border-left: 6px solid #4f7d32;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(40, 70, 30, 0.25);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #356b2f;
+    font-size: 20px;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #285c2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
