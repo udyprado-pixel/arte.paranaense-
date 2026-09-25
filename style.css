@@ -121,3 +121,25 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
+
+button {
+    background-color: darkblue;
+    color:darkred;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:limegreen;
+
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+
+}
