@@ -1,14 +1,28 @@
+:root{
+    --cor-fundo: #6cd0a0;
+    --cor-texto: #40914c;
+    --cor-principal: #000000;
+   --cor-secundaria: #49b1a4;
+   --cor-houver: #418028;
+   --cor-superficie: #5dda94;
+   --cor-card: #55a142;
+   --cor-legenda: #75c2b6;
+   --cor-clara: #92be99;
+   --cor-rodape: #78bf96;
+    
+}
 body {
-    background-color: #eef2e3;
-    color: #263b24;
+
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 
 header {
-    background-color: #3e7543;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -21,7 +35,7 @@ h1 {
 
 
 h2 {
-    color: #4f7d32;
+    color: var(--cor-principal);
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -45,9 +59,9 @@ nav {
 
 
 nav a {
-    color: white;
+    color: var(--cor-clara);
     text-decoration: none;
-    background-color: #4f7d32;
+    background-color: var(--cor-secundaria);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -56,7 +70,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: #315a27;
+    background-color: var(--cor-fundo);
 }
 
 
@@ -67,7 +81,7 @@ main {
 
 
 section {
-    background-color: #f8f9ed;
+    background-color: var(--cor-superficie);
     margin: 25px 0;
     padding: 25px;
     border-radius: 12px;
@@ -89,17 +103,17 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #687b4d;
+    color: var(--cor-legenda);
     margin-top: 8px;
 }
 
 
 .card {
-    background-color: #e3ebd2;
+    background-color: var(--cor-card);
     padding: 20px;
     margin: 20px 0;
     border: 2px solid #8ca66b;
-    border-left: 6px solid #4f7d32;
+    border-left: 6px solid var(--cor-principal);
     border-radius: 12px;
     box-shadow: 0 3px 8px rgba(40, 70, 30, 0.25);
 }
@@ -115,8 +129,8 @@ figcaption {
 }
 
 footer {
-    background-color: #dde9de;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
@@ -124,8 +138,8 @@ footer {
 
  
 button {
-    background-color: darkblue;
-    color:darkred;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
@@ -134,7 +148,7 @@ button {
 }
 
 button:hover {
-    background-color:limegreen;
+    background-color: var(--cor-houver);
 
 }
 
